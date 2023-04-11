@@ -13,7 +13,7 @@ class Header extends React.Component{
           <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
           </label>
-          <NavLink to = '/' margin-left= "20px"><img src={image} alt="loga" width= "120px" /></NavLink>
+          <NavLink to = '' margin-left= "20px"><img src={image} alt="loga" width= "120px" /></NavLink>
           <ul>
             <li>
                 <NavLink to= '/Meny'>Meny</NavLink>
