@@ -13,29 +13,29 @@ class Header extends React.Component{
           <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
           </label>
-          <a href="/" margin-left= "20px"><img src={image} alt="loga" width= "120px" /></a>
+          <NavLink to = '/' margin-left= "20px"><img src={image} alt="loga" width= "120px" /></NavLink>
           <ul>
             <li>
-                <a href="Meny.html">Meny</a>
+                <NavLink to= '/Meny'>Meny</NavLink>
               </li>
               <li>
-                <a href="Kontakt.html">Kontakt</a>
+                <NavLink to = '/Kontakt'>Kontakt</NavLink>
               </li>
               <li>
-                <a href="Öppetider.html">Öppetider</a>
+                <NavLink to = '/Öppetider'>Öppetider</NavLink>
               </li>
               <li>
-                <a href="Ingredienser.html">Ingredienser</a>
+                <NavLink to = '/Ingredienser'>Ingredienser</NavLink>
               </li>
               <li>
-                <a href="tel:0767711006"><i class="far fa-phone-volume"></i> 060-159596</a>
+                <NavLink to = '/tel:0767711006'><i class="far fa-phone-volume"></i> 060-159596</NavLink>
               </li>
               <li>
-                <a href="Kassa.html">Kassa</a>
+                <NavLink to = '/Kassa'>Kassa</NavLink>
               </li>
           </ul>
         </nav>
-        
+     
 
         );
     }
