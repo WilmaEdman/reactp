@@ -1,6 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
+import { BrowserRouter } from "react-router-dom";
 
 
 
@@ -16,7 +15,7 @@ class Home extends React.Component{
 <div class="container">
   <div>
   <h1> We have the best Pizza!</h1>
-  <NavLink to = '/Meny'>Meny</NavLink>
+  <a href="Meny.html">Meny</a>
   </div>
 </div>
 </header>
